@@ -24,6 +24,7 @@ vectordb = Chroma(
 
 
 if __name__ == "__main__":
+    #un-comment the below block while ingestion the info to vector DB. After that you can comment it.
     '''
     print("inside ingestion")
     loader = TextLoader("mediumblog.txt", encoding="utf-8")
